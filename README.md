@@ -1,5 +1,6 @@
 # PlanPro
-![Simulator Screenshot - iPhone 14 Pro - 2023-08-08 at 15 17 29](https://github.com/AleksandrVolokhov/MyToDoList/assets/90680366/a2ec2b32-958d-4679-94b5-cff034bc419e)
+<img width="241" alt="Screenshot 2023-08-08 at 15 34 30" src="https://github.com/AleksandrVolokhov/MyToDoList/assets/90680366/e47f7959-b169-4b74-a51c-928ac9659ba9">
+
 
 📝 About the App:
 At its core, my To-do list app represents a fusion of simplicity and power. Leveraging the MVVM architecture, it efficiently separates concerns, allowing for a clean and scalable codebase. With a sleek and intuitive interface, users can effortlessly manage tasks, set priorities, and achieve their goals with ease.
