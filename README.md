@@ -20,7 +20,7 @@ The MVVM architecture isn't just a buzzword – it's a game-changer. By decoupli
 
     Swift
     MVVM Architecture
-    CoreData (or any other persistence framework)
+    CoreData
 
 📈 What's Next:
 My journey with this To-do list app doesn't stop here. I'm committed to refining its features, optimizing performance, and incorporating user feedback to create a truly outstanding tool for boosting productivity and organization.
