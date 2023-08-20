@@ -1,14 +1,14 @@
-//
-//  ListViewModel.swift
-//  TodoList
-//
-//  Created by Alexander Volokhov
-//
-
 import Foundation
 
-class ListViewModel: ObservableObject {
+final class ListViewModel: ObservableObject {
     
+    enum State {
+        case loading
+        case empty
+        case content
+    }
+    
+    @Published var state: State = .empty
     @Published var items: [ItemModel] = [] {
         didSet {
             saveItems()
@@ -28,6 +28,7 @@ class ListViewModel: ObservableObject {
         else { return }
 
         self.items = savedItems
+        self.state = items.isEmpty ? .empty : .content
     }
     
     func deleteItem(indexSet: IndexSet) {

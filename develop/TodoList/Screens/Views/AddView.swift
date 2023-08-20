@@ -1,10 +1,3 @@
-//
-//  AddView.swift
-//  TodoList
-//
-//  Created by Alexander Volokhov
-//
-
 import SwiftUI
 
 struct AddView: View {

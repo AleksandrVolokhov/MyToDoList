@@ -1,10 +1,3 @@
-//
-//  ListRowView.swift
-//  TodoList
-//
-//  Created by Alexander Volokhov
-//
-
 import SwiftUI
 
 struct ListRowView: View {
@@ -18,6 +11,7 @@ struct ListRowView: View {
             Text(item.title)
             Spacer()
         }
+        .frame(maxWidth: .infinity, alignment: .leading)
         .font(.title2)
         .padding(.vertical, 8)
     }
