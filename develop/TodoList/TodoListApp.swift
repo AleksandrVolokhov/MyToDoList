@@ -1,10 +1,3 @@
-//
-//  TodoListApp.swift
-//  TodoList
-//
-//  Created by Alexander Volokhov
-//
-
 import SwiftUI
 
 @main
@@ -15,9 +8,9 @@ struct TodoListApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                ListView()
+                ListView(listViewModel: .init())
             }
-            .navigationViewStyle(StackNavigationViewStyle())
+            .navigationViewStyle(.stack)
             .environmentObject(listViewModel)
         }
     }

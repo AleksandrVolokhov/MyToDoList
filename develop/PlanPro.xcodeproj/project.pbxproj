@@ -49,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				022EF16525EEE90900112224 /* TodoList */,
-				5E3182242A826C230074A9FB /* Screens */,
 				022EF16425EEE90900112224 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				022EF16625EEE90900112224 /* TodoListApp.swift */,
+				5E3182242A826C230074A9FB /* Screens */,
 				02F8C3E225EF082E00BDAB62 /* Models */,
 				022EF16A25EEE90C00112224 /* Assets.xcassets */,
 				022EF16F25EEE90C00112224 /* Info.plist */,
@@ -85,7 +85,6 @@
 		022EF17625EEEA0500112224 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				022EF17725EEEA1D00112224 /* ListView.swift */,
 				022EF17C25EEEC0000112224 /* ListRowView.swift */,
 				022EF17F25EEEDF000112224 /* AddView.swift */,
 				02F8C3FD25F08D6500BDAB62 /* NoItemsView.swift */,
@@ -110,9 +109,18 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		5E1C5A582A92A1290010DDDC /* List */ = {
+			isa = PBXGroup;
+			children = (
+				022EF17725EEEA1D00112224 /* ListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 		5E3182242A826C230074A9FB /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				5E1C5A582A92A1290010DDDC /* List */,
 				022EF17625EEEA0500112224 /* Views */,
 				02F8C3EC25EFF80400BDAB62 /* ViewModels */,
 			);
@@ -253,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -308,7 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -329,11 +337,13 @@
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TodoList/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = PlanPro;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourname.TodoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -352,11 +362,13 @@
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TodoList/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = PlanPro;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourname.TodoList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

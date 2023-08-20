@@ -1,10 +1,3 @@
-//
-//  ItemModel.swift
-//  TodoList
-//
-//  Created by Alexander Volokhov
-//
-
 import Foundation
 
 // Immutable Struct has only 'let' constants
@@ -24,4 +17,3 @@ struct ItemModel: Identifiable, Codable {
     }
     
 }
-
